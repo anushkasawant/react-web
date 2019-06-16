@@ -11,7 +11,7 @@ function Products() {
     return (
         <>
             <Typography>Hello Another World</Typography>  
-            <Button variant="outlined" onClick={handleSubmit}><Typography>{like}</Typography> LIke</Button>
+            <Button variant="contained" onClick={handleSubmit}><Typography>{like}</Typography> LIke</Button>
         </>
     )
 }
