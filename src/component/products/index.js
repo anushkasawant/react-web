@@ -10,7 +10,7 @@ function Products() {
 
     return (
         <>
-            <Typography>Hello Another World</Typography>  
+            <Typography>Hello </Typography>  
             <Button variant="contained" onClick={handleSubmit}><Typography>{like}</Typography> LIke</Button>
         </>
     )
